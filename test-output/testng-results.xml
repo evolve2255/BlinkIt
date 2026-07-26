@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-07-18T15:28:47 IST" name="Default suite" finished-at="2026-07-18T15:29:19 IST" duration-ms="32340">
+    <groups>
+    </groups>
+    <test started-at="2026-07-18T15:28:47 IST" name="Default test" finished-at="2026-07-18T15:29:19 IST" duration-ms="32340">
+      <class name="blinkit.FooterLinksTest">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:blinkit.FooterLinksTest@385c9627]" started-at="2026-07-18T15:28:47 IST" name="launchApp" finished-at="2026-07-18T15:28:54 IST" duration-ms="7197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="checkFooterLinks()[pri:0, instance:blinkit.FooterLinksTest@385c9627]" started-at="2026-07-18T15:28:54 IST" name="checkFooterLinks" finished-at="2026-07-18T15:29:19 IST" duration-ms="24633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkFooterLinks -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:blinkit.FooterLinksTest@385c9627]" started-at="2026-07-18T15:29:19 IST" name="closeBrowser" finished-at="2026-07-18T15:29:19 IST" duration-ms="461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- blinkit.FooterLinksTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

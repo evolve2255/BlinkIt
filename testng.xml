@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name= "Suite">
+<listeners>
+	<listener class-name="blinkitTestComponents.Listenerspractice"/>
+</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="blinkit.FooterLinksTest"/>
+      <class name="blinkit.SidePanelElementsTest"/>
+      <class name="blinkit.OrderTest"/>
+      <class name="blinkit.InputCheckTest"/>
+      
+    </classes>
+  </test> <!-- Test -->
+  <test name="Cases To Check Failure">
+  	<classes>
+  	
+  		<class name="blinkit.FailingCases">
+  		
+  		</class>
+  	</classes>
+  
+  </test>
+</suite> <!-- Suite -->

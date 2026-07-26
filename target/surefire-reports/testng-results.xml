@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="4" ignored="0" total="10" passed="4" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-07-25T20:16:18 IST" name="Suite" finished-at="2026-07-25T20:17:47 IST" duration-ms="89215">
+    <groups>
+    </groups>
+    <test started-at="2026-07-25T20:16:18 IST" name="Cases To Check Failure" finished-at="2026-07-25T20:17:38 IST" duration-ms="79932">
+      <class name="blinkit.FailingCases">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:blinkit.FailingCases@606e4010]" started-at="2026-07-25T20:16:18 IST" name="launchApp" finished-at="2026-07-25T20:16:31 IST" duration-ms="13115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method retried="true" signature="checkCountOfCategoriesHomePage()[pri:0, instance:blinkit.FailingCases@606e4010]" started-at="2026-07-25T20:16:31 IST" name="checkCountOfCategoriesHomePage" finished-at="2026-07-25T20:16:37 IST" duration-ms="5995" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [21] but found [20]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [21] but found [20]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1431)
+at org.testng.Assert.assertEquals(Assert.java:1395)
+at org.testng.Assert.assertEquals(Assert.java:1441)
+at blinkit.FailingCases.checkCountOfCategoriesHomePage(FailingCases.java:23)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+at java.base/java.lang.Thread.run(Thread.java:1474)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCountOfCategoriesHomePage -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:blinkit.FailingCases@606e4010]" started-at="2026-07-25T20:16:37 IST" name="closeBrowser" finished-at="2026-07-25T20:16:41 IST" duration-ms="3977" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:blinkit.FailingCases@606e4010]" started-at="2026-07-25T20:16:41 IST" name="launchApp" finished-at="2026-07-25T20:16:47 IST" duration-ms="5717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method retried="true" signature="checkCountOfCategoriesHomePage()[pri:0, instance:blinkit.FailingCases@606e4010]" started-at="2026-07-25T20:16:47 IST" name="checkCountOfCategoriesHomePage" finished-at="2026-07-25T20:16:52 IST" duration-ms="5267" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [21] but found [20]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [21] but found [20]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1431)
+at org.testng.Assert.assertEquals(Assert.java:1395)
+at org.testng.Assert.assertEquals(Assert.java:1441)
+at blinkit.FailingCases.checkCountOfCategoriesHomePage(FailingCases.java:23)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:280)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+at java.base/java.lang.Thread.run(Thread.java:1474)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCountOfCategoriesHomePage -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:blinkit.FailingCases@606e4010]" started-at="2026-07-25T20:16:52 IST" name="closeBrowser" finished-at="2026-07-25T20:16:55 IST" duration-ms="2518" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:blinkit.FailingCases@606e4010]" started-at="2026-07-25T20:16:55 IST" name="launchApp" finished-at="2026-07-25T20:17:03 IST" duration-ms="7700" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="checkCountOfCategoriesHomePage()[pri:0, instance:blinkit.FailingCases@606e4010]" started-at="2026-07-25T20:17:03 IST" name="checkCountOfCategoriesHomePage" finished-at="2026-07-25T20:17:07 IST" duration-ms="4839" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [21] but found [20]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [21] but found [20]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1431)
+at org.testng.Assert.assertEquals(Assert.java:1395)
+at org.testng.Assert.assertEquals(Assert.java:1441)
+at blinkit.FailingCases.checkCountOfCategoriesHomePage(FailingCases.java:23)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:280)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+at java.base/java.lang.Thread.run(Thread.java:1474)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCountOfCategoriesHomePage -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:blinkit.FailingCases@606e4010]" started-at="2026-07-25T20:17:08 IST" name="closeBrowser" finished-at="2026-07-25T20:17:09 IST" duration-ms="928" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:blinkit.FailingCases@606e4010]" started-at="2026-07-25T20:17:09 IST" name="launchApp" finished-at="2026-07-25T20:17:14 IST" duration-ms="5569" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method retried="true" signature="checkLocation()[pri:0, instance:blinkit.FailingCases@606e4010]" started-at="2026-07-25T20:17:14 IST" name="checkLocation" finished-at="2026-07-25T20:17:18 IST" duration-ms="3413" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The location selected is not the expected location:  expected [Kochi] but found [Chennai]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The location selected is not the expected location:  expected [Kochi] but found [Chennai]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at blinkit.FailingCases.checkLocation(FailingCases.java:33)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+at java.base/java.lang.Thread.run(Thread.java:1474)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkLocation -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:blinkit.FailingCases@606e4010]" started-at="2026-07-25T20:17:18 IST" name="closeBrowser" finished-at="2026-07-25T20:17:20 IST" duration-ms="1829" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:blinkit.FailingCases@606e4010]" started-at="2026-07-25T20:17:20 IST" name="launchApp" finished-at="2026-07-25T20:17:27 IST" duration-ms="7023" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method retried="true" signature="checkLocation()[pri:0, instance:blinkit.FailingCases@606e4010]" started-at="2026-07-25T20:17:27 IST" name="checkLocation" finished-at="2026-07-25T20:17:29 IST" duration-ms="1848" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The location selected is not the expected location:  expected [Kochi] but found [Chennai]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The location selected is not the expected location:  expected [Kochi] but found [Chennai]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at blinkit.FailingCases.checkLocation(FailingCases.java:33)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:280)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+at java.base/java.lang.Thread.run(Thread.java:1474)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkLocation -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:blinkit.FailingCases@606e4010]" started-at="2026-07-25T20:17:29 IST" name="closeBrowser" finished-at="2026-07-25T20:17:29 IST" duration-ms="807" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:blinkit.FailingCases@606e4010]" started-at="2026-07-25T20:17:29 IST" name="launchApp" finished-at="2026-07-25T20:17:35 IST" duration-ms="5180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="checkLocation()[pri:0, instance:blinkit.FailingCases@606e4010]" started-at="2026-07-25T20:17:35 IST" name="checkLocation" finished-at="2026-07-25T20:17:36 IST" duration-ms="1967" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The location selected is not the expected location:  expected [Kochi] but found [Chennai]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The location selected is not the expected location:  expected [Kochi] but found [Chennai]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at blinkit.FailingCases.checkLocation(FailingCases.java:33)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:280)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+at java.base/java.lang.Thread.run(Thread.java:1474)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkLocation -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:blinkit.FailingCases@606e4010]" started-at="2026-07-25T20:17:37 IST" name="closeBrowser" finished-at="2026-07-25T20:17:38 IST" duration-ms="1363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- blinkit.FailingCases -->
+    </test> <!-- Cases To Check Failure -->
+    <test started-at="2026-07-25T20:16:18 IST" name="Test" finished-at="2026-07-25T20:17:47 IST" duration-ms="89215">
+      <class name="blinkit.OrderTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:blinkit.OrderTest@4b741d6d]" started-at="2026-07-25T20:17:20 IST" name="launchApplication" finished-at="2026-07-25T20:17:25 IST" duration-ms="5025" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="placeOrder()[pri:0, instance:blinkit.OrderTest@4b741d6d]" started-at="2026-07-25T20:17:25 IST" name="placeOrder" finished-at="2026-07-25T20:17:37 IST" duration-ms="11767" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:blinkit.OrderTest@4b741d6d]" started-at="2026-07-25T20:17:37 IST" name="tearDown" finished-at="2026-07-25T20:17:38 IST" duration-ms="565" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- blinkit.OrderTest -->
+      <class name="blinkit.FooterLinksTest">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:blinkit.FooterLinksTest@1e0b4072]" started-at="2026-07-25T20:16:18 IST" name="launchApp" finished-at="2026-07-25T20:16:26 IST" duration-ms="8104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="checkFooterLinks()[pri:0, instance:blinkit.FooterLinksTest@1e0b4072]" started-at="2026-07-25T20:16:26 IST" name="checkFooterLinks" finished-at="2026-07-25T20:17:00 IST" duration-ms="34045" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkFooterLinks -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:blinkit.FooterLinksTest@1e0b4072]" started-at="2026-07-25T20:17:00 IST" name="closeBrowser" finished-at="2026-07-25T20:17:08 IST" duration-ms="7175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- blinkit.FooterLinksTest -->
+      <class name="blinkit.InputCheckTest">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:blinkit.InputCheckTest@2eae8e6e]" started-at="2026-07-25T20:17:38 IST" name="launchApp" finished-at="2026-07-25T20:17:42 IST" duration-ms="4122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="checkInputValue()[pri:0, instance:blinkit.InputCheckTest@2eae8e6e]" started-at="2026-07-25T20:17:42 IST" name="checkInputValue" finished-at="2026-07-25T20:17:47 IST" duration-ms="4918" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkInputValue -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:blinkit.InputCheckTest@2eae8e6e]" started-at="2026-07-25T20:17:47 IST" name="closeBrowser" finished-at="2026-07-25T20:17:47 IST" duration-ms="571" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- blinkit.InputCheckTest -->
+      <class name="blinkit.SidePanelElementsTest">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:blinkit.SidePanelElementsTest@15bb5034]" started-at="2026-07-25T20:17:08 IST" name="launchApp" finished-at="2026-07-25T20:17:14 IST" duration-ms="6196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="checkSideElements()[pri:0, instance:blinkit.SidePanelElementsTest@15bb5034]" started-at="2026-07-25T20:17:14 IST" name="checkSideElements" finished-at="2026-07-25T20:17:19 IST" duration-ms="5501" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSideElements -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:blinkit.SidePanelElementsTest@15bb5034]" started-at="2026-07-25T20:17:19 IST" name="closeBrowser" finished-at="2026-07-25T20:17:20 IST" duration-ms="1160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- blinkit.SidePanelElementsTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
